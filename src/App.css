@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar{
+  height: 60px; 
+  background-color:#0f1111;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo{
+  height: 50px;
+  width: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  background-image: url("./Images/amazon_logo.png");
+  background-size: cover;
+  height:50px;
+  width:100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border{
+  border: 1.5px solid transparent;
+}
+
+.border:hover{
+  border:1.5px solid white;
+}
+
+.address1{
+  margin-left: 15px;
+  color:#cccccc;
+  font-size: 0.85rem;
+}
+
+.address2{
+  margin-left: 3px;
+  color:white;
+  font-size: 1rem;
+}
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+
+.nav-search{
+  display:flex;
+  height: 50px;
+}
+.nav-search:hover{
+  border:2px solid orange
+}
+
+
+
+.search-select{
+  background-color: #f3f3f3;
+  width:50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color:black ;
+}
+/**  box 4*/
+
+span{
+  font-size:0.7rem ;
+}
+
+.nav-second{
+  font-size:0.85rem; 
+  font-weight: 700;
+}
+
+.cart-icon{
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+
+}
+.cart-icon p{
+font-size: 0.85rem;
+font-weight: 700;
+}
+
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-ops p{
+  display: inline;
 }
